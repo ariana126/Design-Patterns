@@ -13,6 +13,8 @@ let entities = {
     ]
 }
 
+function Jabinja() {}
+
 function Safieh() {
     this.getNewEmployee = function (sex, ageFrom, ageTo) {
         return new Jabinja().request('Wubba lubba dub dub', sex);
