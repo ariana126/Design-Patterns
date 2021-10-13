@@ -45,8 +45,7 @@ function ComputerCollection() {
 
     return {
         add: function (make, model, processor, memory, tag) {
-            computers[tag] =
-                new Computer(make, model, processor, memory, tag);
+            computers[tag] = new Computer(make, model, processor, memory, tag);
             count++;
         },
 
