@@ -1,6 +1,10 @@
 <?php
 
-require './Domain.php';
+
+namespace DesignPatterns\Decorator\PHP\Campaign;
+
+
+require 'Domain.php';
 
 $normalCalculator = new UserRegistrationPriceCalculator();
 

@@ -1,6 +1,9 @@
 <?php
 
 
+namespace DesignPatterns\Composite\PHP\SkypeCall;
+
+
 interface CallableEntity
 {
 

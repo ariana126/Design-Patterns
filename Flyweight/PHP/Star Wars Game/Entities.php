@@ -1,5 +1,9 @@
 <?php
 
+
+namespace DesignPatterns\Flyqeight\PHP\StartWarsGame;
+
+
 class Player
 {
 

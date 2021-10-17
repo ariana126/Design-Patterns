@@ -1,39 +1,8 @@
 <?php
 
 
-namespace ChainOfResponsibility\PHP\OrderRegistration;
+namespace DesignPatterns\ChainOfResponsibility\PHP\OrderRegistration;
 
-
-class Order
-{
-
-    private string $id;
-
-    private string $sellerId;
-
-    public function __construct(string $id, string $sellerId)
-    {
-        $this->id       = $id;
-        $this->sellerId = $sellerId;
-    }
-
-    /**
-     * @return string
-     */
-    public function getId(): string
-    {
-        return $this->id;
-    }
-
-    /**
-     * @return string
-     */
-    public function getSellerId(): string
-    {
-        return $this->sellerId;
-    }
-
-}
 
 class RegisterOrderRequest
 {

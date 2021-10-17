@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ChainOfResponsibility\PHP\OrderRegistration;
+namespace DesignPatterns\ChainOfResponsibility\PHP\OrderRegistration;
 
 
 require 'Entities.php';

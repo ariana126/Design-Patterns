@@ -1,6 +1,9 @@
 <?php
 
 
+namespace DesignPatterns\Composite\PHP\Fun;
+
+
 abstract class SurveyCorpsMember
 {
 
@@ -58,9 +61,9 @@ $armoredTitan      = new Soldier('Reiner Braun');
 $femaleTitan       = new Soldier('Annie Leonhart');
 $deadColossalTitan = new Soldier('Bertolt Hoover');
 
-$titanLover                = new Commander('Hange Zoe', [$attackTitan, $potatoGirl, $deadColossalTitan]);
+$titanLover               = new Commander('Hange Zoe', [$attackTitan, $potatoGirl, $deadColossalTitan]);
 $humanityStrongestSoldier = new Commander('Levi Ackerman', [$ackermannGirl, $newColossalTitan, $horse, $potatoGirlsFriend, $armoredTitan, $femaleTitan]);
-$theLegend                 = new Commander('Erwin Smith', [$humanityStrongestSoldier, $titanLover]);
+$theLegend                = new Commander('Erwin Smith', [$humanityStrongestSoldier, $titanLover]);
 
 
 $theLegend->sayTheWords();

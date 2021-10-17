@@ -1,6 +1,10 @@
 <?php
 
-require './Entities.php';
+
+namespace DesignPatterns\Proxy\PHP\OrderVerifications;
+
+
+require 'Entities.php';
 
 
 $orders = [

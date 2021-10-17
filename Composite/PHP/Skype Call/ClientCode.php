@@ -1,6 +1,10 @@
 <?php
 
-require './EntityAndServices.php';
+
+namespace DesignPatterns\Composite\PHP\SkypeCall;
+
+
+require 'EntityAndServices.php';
 
 $user1 = new User('Name 1', 'Mobile 1');
 $user2 = new User('Name 2', 'Mobile 2');

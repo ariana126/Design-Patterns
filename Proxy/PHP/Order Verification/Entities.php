@@ -1,5 +1,9 @@
 <?php
 
+
+namespace DesignPatterns\Proxy\PHP\OrderVerifications;
+
+
 interface OrderVerificationService
 {
 
