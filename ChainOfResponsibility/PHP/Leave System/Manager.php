@@ -1,7 +1,7 @@
 <?php
 
 
-class Manager extends LeaveHandlerInterfaceAbstract
+class Manager extends LeaveHandlerAbstract
 {
     /**
      * @param Leave $leave

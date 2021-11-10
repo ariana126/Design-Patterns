@@ -2,7 +2,7 @@
 
 require_once "LeaveHandlerInterfaceAbstract.php";
 
-class TeamLeader extends LeaveHandlerInterfaceAbstract
+class TeamLeader extends LeaveHandlerAbstract
 {
     /**
      * @param Leave $leave

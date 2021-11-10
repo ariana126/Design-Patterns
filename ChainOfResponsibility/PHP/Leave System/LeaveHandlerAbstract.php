@@ -3,7 +3,7 @@
 
 require_once 'LeaveHandlerInterface.php';
 
-abstract class LeaveHandlerInterfaceAbstract implements LeaveHandlerInterface
+abstract class LeaveHandlerAbstract implements LeaveHandlerInterface
 {
     protected LeaveHandlerInterface $supervisor;
 

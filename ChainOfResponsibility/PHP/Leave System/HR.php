@@ -1,7 +1,7 @@
 <?php
 
 
-class HR extends LeaveHandlerInterfaceAbstract
+class HR extends LeaveHandlerAbstract
 {
 
     public function handle(Leave $leave)

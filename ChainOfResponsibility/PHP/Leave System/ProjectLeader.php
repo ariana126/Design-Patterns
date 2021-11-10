@@ -1,7 +1,7 @@
 <?php
 
 
-class ProjectLeader extends LeaveHandlerInterfaceAbstract
+class ProjectLeader extends LeaveHandlerAbstract
 {
 
     public function handle(Leave $leave)
