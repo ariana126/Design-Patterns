@@ -1,6 +1,10 @@
 <?php
 
-require './Entities.php';
+
+namespace DesignPatterns\Flyqeight\PHP\StartWarsGame;
+
+
+require 'Entities.php';
 
 $game = new Battlefield();
 

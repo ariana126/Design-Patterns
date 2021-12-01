@@ -1,14 +1,19 @@
 <?php
 
-class Order 
+
+namespace DesignPatterns\Facade\PHP\OrderRegistration;
+
+
+class Order
 {
+
     private string $id;
 
-    private int $price;
+    private int    $price;
 
     public function __construct(string $id)
     {
-        $this->id   = $id;
+        $this->id    = $id;
         $this->price = 0;
     }
 
@@ -17,14 +22,14 @@ class Order
         return $this->id;
     }
 
-    public function setPrice(int $price): void
-    {
-        $this->price = $price;
-    }
-
     public function getPrice(): int
     {
         return $this->price;
+    }
+
+    public function setPrice(int $price): void
+    {
+        $this->price = $price;
     }
 
 }

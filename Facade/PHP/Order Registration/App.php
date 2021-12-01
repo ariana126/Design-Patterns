@@ -1,18 +1,22 @@
 <?php
 
-require './AmazonPackage.php';
+
+namespace DesignPatterns\Facade\PHP\OrderRegistration;
+
+
+require 'AmazonPackage.php';
 
 class AmazonOrderRegistrationService
 {
-    
-    private PriceCalculator $priceCalculator;
+
+    private PriceCalculator            $priceCalculator;
 
     private AmazonCommunicationService $amazonCommunicationService;
 
     public function __construct()
     {
-        $this->priceCalculator   = new PriceCalculator;
-        $this->amazonCommunicationService   = new AmazonCommunicationService;
+        $this->priceCalculator            = new PriceCalculator;
+        $this->amazonCommunicationService = new AmazonCommunicationService;
     }
 
     public function register(string $id): void

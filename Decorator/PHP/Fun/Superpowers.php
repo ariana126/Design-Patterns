@@ -1,6 +1,9 @@
 <?php
 
 
+namespace DesignPatterns\Decorator\PHP\Fun;
+
+
 interface HumanBeing
 {
 

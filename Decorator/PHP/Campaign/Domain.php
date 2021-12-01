@@ -1,5 +1,9 @@
 <?php
 
+
+namespace DesignPatterns\Decorator\PHP\Campaign;
+
+
 interface PriceCalculator
 {
 
